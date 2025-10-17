@@ -2,6 +2,10 @@
 *.class
 bin/
 
+# Data files
+datos/
+*.txt
+
 # IDE files
 .idea/
 *.iml

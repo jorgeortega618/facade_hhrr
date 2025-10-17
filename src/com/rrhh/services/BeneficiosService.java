@@ -1,7 +1,9 @@
 package com.rrhh.services;
 
+import com.rrhh.model.Empleado;
+
 public class BeneficiosService {
-    public String activarBeneficios() {
-        return "Beneficios activados.";
+    public String activarBeneficios(Empleado empleado) {
+        return "Beneficios activados (seguro médico, vacaciones, bonos).";
     }
 }
